@@ -1,0 +1,28 @@
+[11-Mar-2026 20:10:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_is_at_least_admin() in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 6
+[24-Mar-2026 15:52:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_is_at_least_admin() in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 6
+[16-Jun-2026 08:45:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_is_at_least_admin() in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 6
+[16-Jun-2026 08:47:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 69
+[16-Jun-2026 08:48:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 69
+[16-Jun-2026 08:51:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 69
+[16-Jun-2026 08:52:13 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 69
+[16-Jun-2026 08:55:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_is_at_least_admin() in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 6
+[16-Jun-2026 08:56:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_is_at_least_admin() in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 6
+[16-Jun-2026 09:13:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_is_at_least_admin() in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/modules/pessoas/batch_action.php on line 10

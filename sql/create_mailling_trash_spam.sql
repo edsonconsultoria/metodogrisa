@@ -1,0 +1,41 @@
+CREATE TABLE IF NOT EXISTS mailling_lixo (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    tenant_id INT(10) UNSIGNED NOT NULL DEFAULT 1,
+    id_original INT(11) NOT NULL,
+    id_conta INT(11) DEFAULT NULL,
+    uid VARCHAR(100) DEFAULT NULL,
+    remetente_nome VARCHAR(255) DEFAULT NULL,
+    remetente_email VARCHAR(255) DEFAULT NULL,
+    assunto VARCHAR(255) DEFAULT NULL,
+    corpo_html LONGTEXT,
+    corpo_texto LONGTEXT,
+    `data_recebimento` DATETIME DEFAULT NULL,
+    `inclusao` datetime DEFAULT current_timestamp(),
+    `alteracao` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+    `data_exclusao` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    INDEX (data_exclusao),
+    KEY idx_mailling_lixo_tenant (tenant_id),
+    CONSTRAINT fk_mailling_lixo_tenant FOREIGN KEY (tenant_id) REFERENCES empresas (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS mailling_spam (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    tenant_id INT(10) UNSIGNED NOT NULL DEFAULT 1,
+    id_original INT(11) NOT NULL,
+    id_conta INT(11) DEFAULT NULL,
+    uid VARCHAR(100) DEFAULT NULL,
+    remetente_nome VARCHAR(255) DEFAULT NULL,
+    remetente_email VARCHAR(255) DEFAULT NULL,
+    assunto VARCHAR(255) DEFAULT NULL,
+    corpo_html LONGTEXT,
+    corpo_texto LONGTEXT,
+    `data_recebimento` DATETIME DEFAULT NULL,
+    `inclusao` datetime DEFAULT current_timestamp(),
+    `alteracao` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+    `data_spam` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    INDEX (data_spam),
+    KEY idx_mailling_spam_tenant (tenant_id),
+    CONSTRAINT fk_mailling_spam_tenant FOREIGN KEY (tenant_id) REFERENCES empresas (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
