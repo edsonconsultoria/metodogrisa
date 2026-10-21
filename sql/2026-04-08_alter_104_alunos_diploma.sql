@@ -1,0 +1,2 @@
+ALTER TABLE `104_alunos`
+  MODIFY `diploma` VARCHAR(50) DEFAULT NULL;

@@ -1,0 +1,7 @@
+[25-Apr-2026 09:04:53 America/Sao_Paulo] PHP Notice:  Undefined property: DocumentoGeradoService::$pdo in /home/eadmetodogrisa/public_html/app/core/services/DocumentoGeradoService.php on line 57
+[25-Apr-2026 09:04:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/eadmetodogrisa/public_html/app/core/services/DocumentoGeradoService.php:57
+Stack trace:
+#0 /home/eadmetodogrisa/public_html/app/modules/documentos_gerados/ajax_generate_turma.php(21): DocumentoGeradoService->gerarDocumentosTurma(4, 6, NULL)
+#1 {main}
+  thrown in /home/eadmetodogrisa/public_html/app/core/services/DocumentoGeradoService.php on line 57
+[25-Apr-2026 09:06:12 America/Sao_Paulo] PHP Notice:  Undefined property: DocumentoGeradoService::$pdo in /home/eadmetodogrisa/public_html/app/core/services/DocumentoGeradoService.php on line 57

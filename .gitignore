@@ -1,0 +1,16 @@
+/vendor/
+/logs/
+/storage/
+/uploads/
+/files/
+/.vscode/
+composer.php
+schema_check.txt
+run_migration.php
+dump_schema.php
+debug_schema.php
+check_schema.php
+
+# Env config might have sensitive details, maybe app/config.php if we should ignore it over time, but for now typical PHP ignores
+.env
+.env.*
